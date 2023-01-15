@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 20%);
+
+}
+
+#logo{
+    width: 13.2rem;
+    height: 8.3rem;
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#problem{
+ 
+    height: 100vh;
+    background: url(./assets/main/wpp.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    padding: 35px 35px 35px 35px;
+
+    gap: 90px;
+
+}
+
+#txt-init{
+
+    width: 401px;
+    height: 269px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 81px;
+    text-align: center;
+
+    margin: 110px 0px 0px 65px;
+}
+
+#menu{
+    width: 673px;
+    height: 434px;
+
+    display: flex;
+    flex-direction: column;    
+
+    margin-top: 122px;
+    padding: 25px;
+
+    background: rgba(217, 217, 217, 0.6);
+    border-radius: 45px;
+    gap: 40px;
+}
+
+#wpbm{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 51px;
+    text-align: center;
+    
+}
+
+#in-fti{
+    display: flex;
+    justify-content: space-around;
+}
+
+.in-h{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    gap: 15px;
+    text-align: center;
+}
+
+#b-orc{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 30px;    
+}
+
+/*inicio-butão customizado*/
+.bn632-hover {
+    width: 260px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn24 {
+    background-image: linear-gradient(
+        to right,
+        #6253e1,
+        #852d91,
+        #a3a1ff,
+        #25D9A5
+      );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+/*fim-butão customizado*/
+
+
+#services{
+    height: 100vh;
+    background-image: url(./assets/services/wpp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#d-t-serv{
+    display: flex;
+    justify-content: center;
+}
+#t-serv{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    color: #3C3C3C;
+}
+
+#conteiners{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-serv{
+    background: rgba(192, 192, 192, 0.45);
+    border-radius: 50px;
+    width: 440px;
+    height: 490px;
+    padding: 43px 35px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.desc-serv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.desc-serv strong{
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 700;
+}
+.desc-serv p{
+    color: #3C3C3C;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+
+
+#contact{
+    height: 80vh;
+    background-color: #D9D9D9;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#cf-ex{
+    display: flex;
+}
+#arrow{
+    margin-top: 60px;
+    width: 220px;
+    height: 15px;
+}
+
+.como-func{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 265px;
+    gap: 20px;
+}
+.como-func img{
+    width: 140px;
+    height: 140px;  
+}
+.como-func h3{
+    color: #3C3C3C;
+    font-weight: 700;
+    font-size: 38px;
+}.como-func p{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    height: 20vh;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(60, 60, 60, 53%);
+}
+#cont-link{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer p{
+    color: #3C3C3C;
+
+}
