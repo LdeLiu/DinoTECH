@@ -14,114 +14,118 @@ body{
 }
 
 header{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    padding: 40px;
+    padding: 2.5rem;
     justify-content: space-between;
     align-items: center;
 
-    height: 20vh;
+    max-height: 20vh;
     width: 100%;
-    background-color: rgba(255, 255, 255, 20%);
+    background-color: #6d50b1;
 
 }
 
 #logo{
-    width: 13.2rem;
-    height: 8.3rem;
+    max-width: 13.2rem;
+    max-height: 8.3rem;
 
 }
 
 header ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #problem{
  
-    height: 100vh;
+    max-height: 80vh;
     background: url(./assets/main/wpp.png) ;
     background-size: cover;
     background-repeat: no-repeat;
     
     display: flex;
     align-items: center;
-    padding: 35px 35px 35px 35px;
+    justify-content: center;
+    padding: 2.188rem;
 
-    gap: 90px;
+    gap: 5.625rem;
 
 }
 
 #txt-init{
 
-    width: 401px;
-    height: 269px;
+
+    max-width: 25.063rem;
     font-weight: 400;
-    font-size: 42px;
-    line-height: 81px;
+    font-size: 2.625rem;
+    line-height: 5.063rem;
     text-align: center;
 
-    margin: 110px 0px 0px 65px;
 }
 
 #menu{
-    width: 673px;
-    height: 434px;
+    width: 42.063rem;
+    max-height: 27.125rem;
 
     display: flex;
     flex-direction: column;    
 
-    margin-top: 122px;
-    padding: 25px;
+    
+    padding: 1.563rem;
 
     background: rgba(217, 217, 217, 0.6);
-    border-radius: 45px;
-    gap: 40px;
+    border-radius: 2.813rem;
+    gap: 2.5rem;
 }
 
 #wpbm{
     font-weight: 400;
-    font-size: 30px;
-    line-height: 51px;
+    font-size: 1.875rem;
+    line-height: 3.188rem;
     text-align: center;
     
 }
 
 #in-fti{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .in-h{
     display: flex;
     flex-direction: column;
-    width: 120px;
-    gap: 15px;
+    max-width: 7.5rem;
+    gap: 0.938rem;
     text-align: center;
+}
+.in-h img{
+    max-height: 7.5rem;
+    max-width: 7.5rem;
 }
 
 #b-orc{
     display: flex;
     justify-content: center;
     font-weight: 400;
-    font-size: 30px;    
+    font-size: 1.875rem;    
 }
 
 /*inicio-butão customizado*/
 .bn632-hover {
-    width: 260px;
-    font-size: 16px;
+    width: 16.25rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-    height: 55px;
+    height: 3.438rem;
     text-align: center;
     border: none;
     background-size: 300% 100%;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     -o-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -147,7 +151,7 @@ header ul{
         #a3a1ff,
         #25D9A5
       );
-    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    box-shadow: 0 0.25rem 0.938rem 0 rgba(126, 52, 161, 0.75);
   }
 /*fim-butão customizado*/
 
@@ -157,10 +161,10 @@ header ul{
     background-image: url(./assets/services/wpp.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 #d-t-serv{
@@ -169,8 +173,8 @@ header ul{
 }
 #t-serv{
     font-weight: 700;
-    font-size: 64px;
-    line-height: 81px;
+    font-size: 4rem;
+    line-height: 5.063rem;
     color: #3C3C3C;
 }
 
@@ -181,30 +185,30 @@ header ul{
 
 .cont-serv{
     background: rgba(192, 192, 192, 0.45);
-    border-radius: 50px;
-    width: 440px;
-    height: 490px;
-    padding: 43px 35px;
+    border-radius: 3.125rem;
+    width: 27.5rem;
+    height: 30.625rem;
+    padding: 2.688rem 2.188rem;
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 .desc-serv{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 .desc-serv strong{
     color: #3C3C3C;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 .desc-serv p{
     color: #3C3C3C;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 700;
 
 }
@@ -214,18 +218,19 @@ header ul{
 #contact{
     height: 80vh;
     background-color: #D9D9D9;
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    justify-content: center;
+    gap: 2.5rem;
 }
 #cf-ex{
     display: flex;
 }
 #arrow{
-    margin-top: 60px;
-    width: 220px;
-    height: 15px;
+    margin-top: 3.75rem;
+    width: 13.75rem;
+    height: 0.938rem;
 }
 
 .como-func{
@@ -233,20 +238,20 @@ header ul{
     flex-direction: column;
     align-items: center;
 
-    width: 265px;
-    gap: 20px;
+    width: 16.563rem;
+    gap: 1.25rem;
 }
 .como-func img{
-    width: 140px;
-    height: 140px;  
+    width: 8.75rem;
+    height: 8.75rem;  
 }
 .como-func h3{
     color: #3C3C3C;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 2.375rem;
 }.como-func p{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     color: #3C3C3C;
 }
@@ -256,17 +261,17 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 1.25rem;
+    padding: 1.25rem;
     height: 20vh;
     width: 100%;
-    bottom: 0px;
+    bottom: 0rem;
     background-color: rgba(60, 60, 60, 53%);
 }
 #cont-link{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 footer p{
