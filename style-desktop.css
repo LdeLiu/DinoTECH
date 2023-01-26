@@ -506,15 +506,14 @@ footer p{
     }
     #cf-ex{
         flex-direction: column;
-        gap: 3rem;
         align-items: center;
         height: 100%;
-        align-items: initial;
+        justify-content: space-evenly;
         
     }
     .como-func{
         flex-direction: row;
-        gap: 2rem;
+        gap: 1rem;
         padding-left: 1rem;
     }
     .como-func img{
