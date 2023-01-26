@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-desktop.css">
+
+    <script src="https://kit.fontawesome.com/568c7fbacc.js" crossorigin="anonymous"></script>
+
     <title>DinoTech</title>
 
 </head>
@@ -19,12 +22,27 @@
         <h1>
             DinoTECH
         </h1>
+
+    
+
         <nav>
-            <ul>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#contact">Como funciona</a></li>
-                <li><a href="https://contate.me/dinotech" target="_blank">Contato</a></li>
+            <ul id="menu">
+                <li><a class="menuItem" href="#services">Serviços</a></li>
+                <li><a class="menuItem" href="#contact">Como funciona</a></li>
+                <li><a class="menuItem" href="https://contate.me/dinotech" target="_blank">Contato</a></li>
             </ul>
+            <div id="toggle-menu">
+                <label for="toggle-btn">
+                    <i class="fas fa-bars toggle-icon"></i>
+                </label>
+                <input id="toggle-btn" type="checkbox">
+                <ul class="toggle-items">
+                    <li><a class="toggle-item-1" href="#services">Serviços</a></li>
+                    <li><a class="toggle-item-2" href="#contact">Como funciona</a></li>
+                    <li><a class="toggle-item-3" href="https://contate.me/dinotech" target="_blank">Contato</a></li>
+                    
+                </ul>
+            </div>
         </nav>
     
     
@@ -40,7 +58,7 @@
                     </h2>
                 </div>
 
-                <div id="menu">
+                <div id="menu-wup">
                     <div id="wpbm">
                         <p>Qual o seu <strong>problema?</strong></p>
                     </div>
@@ -152,24 +170,30 @@
 
                <div class="como-func">
                    <img src="./assets/contact/icon-ret.png" alt="">
+                   <div>
                    <h3>Retiramos</h3>
                    <p>Retiramos o seu computador/notebook na sua residência ou empresa.</p>
+                   </div>
                </div>
 
                <img id="arrow" src="./assets/contact/arrow.png" alt="">
 
                 <div class="como-func">
                     <img src="./assets/contact/icon-con.png" alt="">
+                    <div>
                     <h3>Concertamos</h3>
                     <p>Avaliamos e te enviamos o orçamento. Assim que aprovado,  realizamos o reparo.</p>
+                    </div>
                 </div>
 
                 <img id="arrow" src="./assets/contact/arrow.png" alt="">
 
                 <div  class="como-func">
                     <img src="./assets/contact/icon-ent.png" alt="">
+                    <div>
                     <h3>Entregamos</h3>
                     <p>Entregamos no endereço de retirada, para seu conforto e comodidade.</p>
+                    </div>
                 </div>
                
             </div>
