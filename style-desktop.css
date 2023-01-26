@@ -47,7 +47,7 @@ header ul{
 }
 .toggle-icon{
     font-size:30px;
-    background-color: #fff;
+    background-color: rgb(255, 254, 254, 0);
     padding:10px;
     border-radius: 3px;
     cursor: pointer;
@@ -131,7 +131,7 @@ li[class^="toggle-item-"] a:hover{
 #txt-init{
 
 
-    max-width: 25.063rem;
+    width: 25.063rem;
     font-weight: 400;
     font-size: 2.625rem;
     line-height: 5.063rem;
@@ -423,7 +423,22 @@ footer p{
     /*problem*/
     #problem{
         height: 90vh;
+        flex-direction: column;
+        gap: 30px;
     }   
+    #txt-init-div{
+        padding: 1rem;
+        text-align: center;
+    }
+    #txt-init{
+        display: unset;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+        
+
+    }
     #in-fti{
         flex-direction: column;
         align-items: center;
@@ -432,6 +447,7 @@ footer p{
 
     #menu-wup{
         gap: 0.5rem;
+        width: 20rem;
     }
 
 
@@ -485,18 +501,25 @@ footer p{
     /* como contact */
     #contact{
        height: 90vh;
+       padding: 20px;
+    
     }
     #cf-ex{
         flex-direction: column;
-        gap: 1rem;
+        gap: 3rem;
         align-items: center;
+        height: 100%;
+        align-items: initial;
+        
     }
     .como-func{
         flex-direction: row;
+        gap: 2rem;
+        padding-left: 1rem;
     }
     .como-func img{
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
     }
     .como-func div{
         display: flex;
@@ -512,6 +535,7 @@ footer p{
         font-size: 1rem;
     }
     /* fim contact */
+
     footer{
         height: 10vh;
         padding: 0.5rem;
