@@ -23,6 +23,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## :scroll: Projeto
 
 O DinoTECH é uma landing page de uma empresa fictícia que realiza montagem e manunenção de computadores, entre outros serviços.
-esta LP foi criada com intuito de praticar a responsividade da pagina para dispositivos mobiles. Com decorrer do desenvolvimento foi me apaixonando pelos resultados e eventualmente criando melhorias.
+esta LP foi criada com intuito de praticar a responsividade da pagina para dispositivos mobiles. Com decorrer do desenvolvimento fui me apaixonando pelos resultados e eventualmente criando melhorias.
 
 - [Acesse o projeto finalizado, online](https://ldeliu.github.io/DinoTECH/)
